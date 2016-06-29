@@ -1,0 +1,52 @@
+/*navbar*/
+
+#SearchInput
+{
+  width: 200px;
+}
+
+.navbar-brand
+{
+  padding:0 10px 5px 10px;
+}
+
+/*carousel*/
+
+#myCarousel
+{
+  margin-top: 60px;
+}
+
+#myCarousel .item
+{
+  height:400px;
+}
+
+#slide1
+{
+  background: url('../../images/crysis.jpg') top center no-repeat;
+}
+
+#slide2
+{
+  background: url('../../images/codinfinite.jpg') top center no-repeat;
+}
+
+#slide3
+{
+  background: url('../../images/codinfinite.jpg') top center no-repeat;
+}
+
+/*sec3 well*/
+.well
+{
+  position: relative;
+  margin-top: 20px;
+}
+
+#Newsletter
+{
+  position: absolute;
+  top: 58%;
+  left: 77%;
+}
