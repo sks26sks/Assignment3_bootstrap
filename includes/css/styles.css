@@ -1,3 +1,8 @@
+/*body*/
+body
+{
+  background:smokewhite;
+}
 /*navbar*/
 
 #SearchInput
@@ -7,7 +12,7 @@
 
 .navbar-brand
 {
-  padding:0 10px 5px 10px;
+  padding:0 10px 5px 15px;
 }
 
 /*carousel*/
@@ -19,22 +24,37 @@
 
 #myCarousel .item
 {
-  height:400px;
+  height:580px;
 }
 
 #slide1
 {
-  background: url('../../images/crysis.jpg') top center no-repeat;
+  background: url('../../images/metro-large.jpg') top center no-repeat;
 }
 
 #slide2
 {
-  background: url('../../images/codinfinite.jpg') top center no-repeat;
+  background: url('../../images/assassins-large.jpg') top center no-repeat;
 }
 
 #slide3
 {
-  background: url('../../images/codinfinite.jpg') top center no-repeat;
+  background: url('../../images/uncharted-large.jpg') top center no-repeat;
+}
+
+#slide4
+{
+  background: url('../../images/crysis-large.jpg') top center no-repeat;
+}
+
+#slide5
+{
+  background: url('../../images/bioshock-large.jpg') top center no-repeat;
+}
+
+#slide6
+{
+  background: url('../../images/tomb-large.jpg') top center no-repeat;
 }
 
 /*sec3 well*/
