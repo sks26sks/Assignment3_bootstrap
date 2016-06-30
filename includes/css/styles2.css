@@ -1,4 +1,8 @@
 /*body*/
+body
+{
+  background-image: url('../../images/shadow.jpg');
+}
 
 ul.unstyled
 {
@@ -22,121 +26,25 @@ ul.unstyled
   padding:0 10px 5px 15px;
 }
 
-/*carousel*/
-
-#myCarousel
-{
-  margin-top: 60px;
-}
-
-#myCarousel .item
-{
-  height:580px;
-}
-
-#slide1
-{
-  background: url('../../images/skyrim-large.jpg') top center no-repeat;
-}
-
-#slide2
-{
-  background: url('../../images/assassins-large.jpg') top center no-repeat;
-}
-
-#slide3
-{
-  background: url('../../images/uncharted-large.jpg') top center no-repeat;
-}
-
-#slide4
-{
-  background: url('../../images/crysis-large.jpg') top center no-repeat;
-}
-
-#slide5
-{
-  background: url('../../images/bioshock-large.jpg') top center no-repeat;
-}
-
-#slide6
-{
-  background: url('../../images/tomb-large.jpg') top center no-repeat;
-}
-
-/*sec3 well*/
-.well
-{
-  position: relative;
-  margin-top: 20px;
-}
-
-#Newsletter
-{
-  position: absolute;
-  top: 58%;
-  left: 75%;
-}
-
-/*sec4*/
-
-#top3
-{
-  margin-left: 0;
-  margin-right: 0;
-}
-
-.panel
-{
-  padding: 0;
-}
-
-#rank1
-{
-  width: 100%;
-  height: 821px;
-}
-
-#rank2
-{
-  height: 380px;
-  width: 100%;
-}
-
-#rank3
-{
-  height: 380px;
-  width: 100%;
-}
-
-/*sec5*/
-/*#sec5 .col-sm-3
-{
-  /*padding: 0;*/
-}
-
-#sec5
+.features
 {
   text-align: center;
-  /*padding: 0;*/
 }
 
-#sec5 img
+.photo
 {
-  /*margin:0 0 20px;*/
   width: 100%;
+  position: relative;
 }
 
-.head
+.price
 {
-  margin-bottom: 0px;
+  font-size: 22px;
+  position: absolute;
+  top: 41px;
+  right: 16px;
+  padding: 10px;
 }
-
-#dell,#pc
-{
-  margin-bottom: 0;
-}
-
 /*footer*/
 
 footer
@@ -145,88 +53,4 @@ footer
   color: #eee;
   font-size: 11px;
   padding: 20px;
-}
-
-
-/* Portrait & landscape phone */
-@media (max-width: 480px)
-{
-
-/*.Newsletter
-{
-
-}*/
-
-#Newsletter
-{
-  position: absolute;
-  top: 87%;
-  left: 5%;
-  font-size: 5px;
-}
-
-iframe
-{
-  width: 300px;
-  height: 300px;
-}
-#rank1
-{
-  height: 485px;
-}
-
-}
-
-@media (max-width: 768px)
- {
-  #myCarousel .item
-  {
-     height: 310px;
-  }
-  #slide1
-  {
-    background: url('../../images/skyrim-small.jpg') top center no-repeat;
-  }
-
-  #slide2
-  {
-    background: url('../../images/assassins-small.jpg') top center no-repeat;
-  }
-
-  #slide3
-  {
-    background: url('../../images/uncharted-large.jpg') top center no-repeat;
-  }
-
-  #slide4
-  {
-    background: url('../../images/crysis-large.jpg') top center no-repeat;
-  }
-
-  #slide5
-  {
-    background: url('../../images/bioshock-large.jpg') top center no-repeat;
-  }
-
-  #slide6
-  {
-    background: url('../../images/tomb-large.jpg') top center no-repeat;
-  }
-
-  #Newsletter
-  {
-    position: absolute;
-    top: 87%;
-    left: 5%;
-  }
-
-  iframe
-  {
-    width: 300px;
-    height: 300px;
-  }
-  #rank1
-  {
-    height: 485px;
-  }
 }

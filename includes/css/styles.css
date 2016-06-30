@@ -86,10 +86,6 @@ ul.unstyled
   margin-right: 0;
 }
 
-.panel
-{
-  padding: 0;
-}
 
 #rank1
 {
@@ -110,9 +106,9 @@ ul.unstyled
 }
 
 /*sec5*/
-/*#sec5 .col-sm-3
+.photo
 {
-  /*padding: 0;*/
+  width: 100%;
 }
 
 #sec5
