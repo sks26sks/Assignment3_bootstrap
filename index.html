@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<!-- Website Title & Description for Search Engine purposes -->
-		<title>Games</title>
+		<title>IGDB</title>
 		<meta name="description" content="">
 
 		<!-- Mobile viewport optimized -->
@@ -15,6 +15,7 @@
 
 		<!-- Custom CSS -->
 	<!-- <link href='https://fonts.googleapis.com/css?family=BioRhyme+Expanded' rel='stylesheet' type='text/css'> -->
+		<script src="https://use.fontawesome.com/5269d42533.js"></script>
 		<link href="includes/css/styles.css" rel="stylesheet">
 
 		<!-- Include Modernizr in the head, before any other Javascript -->
@@ -53,7 +54,7 @@
 								</ul>
 							</li>
               <li>
-                <a href="#">All games</a>
+                <a href="photos.html">All games</a>
               </li>
 						</ul>
 						<form class="navbar-form pull-left">
@@ -136,22 +137,57 @@
       </div>
 			<!--end myCarousel -->
 			<div class="container">
-      <div class="sec3 well">
+      <div class="col-xs-12 sec3 well">
         <div class="page-header">
-          <h1>IGDB <small>Internet Games Database</small></h1>
+          <h1>IGDB<sup>&copy;</sup><small> Internet Games Database</small></h1>
         </div>
         <p class="lead">
           Here you will find the latest games releases for PC.
           <br>
           If you want to subscribe to our newsletter sign-up to our website.
         </p>
-        <a  class="btn btn-large btn-primary pull-right" id="Newsletter">
-          Subsribe to our Newsletter
-        </a>
+				<a href="#myModal" role="button" id="Newsletter" class="btn btn-large btn-primary pull-right" data-toggle="modal">
+					<span class="glyphicon glyphicon-hand-up"></span>
+					Subsribe to our Newsletter
+				</a>
+				<div class="modal fade" id="myModal">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button class="close" data-dismiss="modal">&times;</button>
+								<h4 class="modal-title">Enter your details</h4>
+							</div><!--end modal-header-->
+							<div class="modal-body">
+
+								<form class="from-horizontal">
+									<div class="form-group">
+										<label class="col-lg-2 control-label" for="inputName">Name</label>
+										<div class="col-lg-10">
+											<input class="form-control" id="inputName" placeholder="Name" type="text">
+										</div>
+										<br>
+									</div><!--End of form-group-1-->
+									<br>
+									<div class="form-group">
+										<label class="col-lg-2 control-label" for="inputEmail">Email</label>
+										<div class="col-lg-10">
+											<input class="form-control" id="inputEmail" placeholder="Email" type="email">
+										</div>
+									</div><!--End of form-group-2-->
+								</form>
+							</div><!--end modal-body-->
+							<div class="modal-footer">
+								<button class="btn btn-primary" type="button" >
+									Subscibe
+								</button>
+							</div>
+						</div><!--end modal-content-->
+					</div><!--end modal-dialog-->
+				</div><!--end modal-->
       </div>
 			<!--End sec3 well-->
 			<div class="row" id="sec4">
-				<div class="col-12" >
+				<div class="col-12 col-xs-12" >
 					<h3>Download top 3 games of the week</h3>
 				</div>
 				<div class="row" id="top3">
@@ -179,11 +215,11 @@
 					</div>
 				</div>
 			</div><!--end of sec4-->
-
-			<div class="row" id="sec5">
+			<br>
+			<div class="row col-12" id="sec5">
 				<div class="col-sm-3" >
 						<div class="panel">
-							<div class="panel-heading">
+							<div class="panel-heading head">
 								<h3 class="panel-title">Buy Dell<sup><small>&copy;</small></sup> Alienware<sup><small>&copy;</sup></small></h3>
 							</div>
 							<img  id="dell" src="images/pc2.jpg" alt="rank1">
@@ -194,15 +230,15 @@
 					</div>
 					<div class="col-sm-6" >
 							<div class="panel">
-								<div class="panel-heading">
+								<div class="panel-heading head">
 									<h3 class="panel-title">Top Gaming laptops</h3>
 								</div>
-								<iframe width="568" height="375" src="https://www.youtube.com/embed/N0wH25biubs" frameborder="0" allowfullscreen></iframe>
+								<iframe width="540" height="348" src="https://www.youtube.com/embed/N0wH25biubs" frameborder="0" allowfullscreen></iframe>
 							</div>
 						</div>
 					<div class="col-sm-3" >
 						<div class="panel" >
-							<div class="panel-heading">
+							<div class="panel-heading head">
 								<h3 class="panel-title">Build your custom PC</h3>
 							</div>
 							<img id="pc" src="images/pc1.jpg" alt="rank1">
@@ -237,9 +273,18 @@
 					<div class="col-sm-2">
 						<h6>Follw us</h6>
 						<ul class="unstyled">
-							<li><a href="#">Twitter</a></li>
-							<li><a href="#">Facebook</a></li>
-							<li><a href="#">Google+</a></li>
+							<li>
+								  <i class="fa fa-twitter" aria-hidden="true"></i>
+								<a href="#">Twitter</a>
+							</li>
+							<li>
+								<i class="fa fa-facebook" aria-hidden="true"></i>
+								<a href="#">Facebook</a>
+							</li>
+							<li>
+								<i class="fa fa-google" aria-hidden="true"></i>
+								<a href="#">Google+</a>
+							</li>
 						</ul>
 					</div>
 					<div class="col-sm-2">
