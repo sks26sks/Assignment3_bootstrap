@@ -21,8 +21,8 @@
 		<script src="includes/js/modernizr-2.6.2.min.js"></script>
   </head>
   <body>
-    <div class="container" id="main">
-      <div class="navbar navbar-fixed-top">
+    <div  id="main">
+      <div class="navbar navbar-fixed-top" id="navigation">
 				<div class="container">
 					<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
 						<span class="icon-bar"></span>
@@ -135,6 +135,7 @@
 					</a>
       </div>
 			<!--end myCarousel -->
+			<div class="container">
       <div class="sec3 well">
         <div class="page-header">
           <h1>IGDB <small>Internet Games Database</small></h1>
@@ -149,220 +150,61 @@
         </a>
       </div>
 			<!--End sec3 well-->
-
 			<div class="row" id="sec4">
-				<div class="col-12">
-					<h3>Download games <small>Direct links</small></h3>
-					<div class="tabbable">
-						<ul class="nav nav-tabs">
-							<li class="active">
-								<a href="#tab1" data-toggle="tab">Page 1</a>
-							</li>
-							<li class="active">
-								<a href="#tab1" data-toggle="tab">Page 2</a>
-							</li>
-							<li class="active">
-								<a href="#tab1" data-toggle="tab">Page 3</a>
-							</li>
-						</ul>
-						<div class="tab-content" >
-							<div class="tab-pane active" id="tab1">
-								<div class="row" id="row1">
-								<div class="col-sm-3">
-									<div class="panel">
-										<div class="panel-heading">
-											<h3 class="panel-title">CS:GO</h3>
-										</div>
-										<img src="images/icon.jpg" alt="HTML5">
-										<a href="#" target="_blank" class="btn btn-warning btn-block">
-											Download
-										</a>
-									</div><!--end icon1-->
-								</div><!--end col3 -->
-								<div class="col-sm-3">
-									<div class="panel">
-										<div class="panel-heading">
-											<h3 class="panel-title">CS:GO</h3>
-										</div>
-										<img src="images/icon.jpg" alt="HTML5">
-										<a href="#" target="_blank" class="btn btn-warning btn-block">
-											Download
-										</a>
-									</div><!--end icon1-->
-								</div><!--end col3 -->
-								<div class="col-sm-3">
-									<div class="panel">
-										<div class="panel-heading">
-											<h3 class="panel-title">CS:GO</h3>
-										</div>
-										<img src="images/icon.jpg" alt="HTML5">
-										<a href="#" target="_blank" class="btn btn-warning btn-block">
-											Download
-										</a>
-									</div><!--end icon1-->
-								</div><!--end col3 -->
-								<div class="col-sm-3">
-									<div class="panel">
-										<div class="panel-heading">
-											<h3 class="panel-title">CS:GO</h3>
-										</div>
-										<img src="images/icon.jpg" alt="HTML5">
-										<a href="#" target="_blank" class="btn btn-warning btn-block">
-											Download
-										</a>
-									</div><!--end icon1-->
-								</div><!--end col3 -->
-							</div> <!--end of row1-->
-							<div class="row" id="row2">
-							<div class="col-sm-3">
-								<div class="panel">
-									<div class="panel-heading">
-										<h3 class="panel-title">CS:GO</h3>
-									</div>
-									<img src="images/icon.jpg" alt="HTML5">
-									<a href="#" target="_blank" class="btn btn-warning btn-block">
-										Download
-									</a>
-								</div><!--end icon1-->
-							</div><!--end col3 -->
-							<div class="col-sm-3">
-								<div class="panel">
-									<div class="panel-heading">
-										<h3 class="panel-title">CS:GO</h3>
-									</div>
-									<img src="images/icon.jpg" alt="HTML5">
-									<a href="#" target="_blank" class="btn btn-warning btn-block">
-										Download
-									</a>
-								</div><!--end icon1-->
-							</div><!--end col3 -->
-							<div class="col-sm-3">
-								<div class="panel">
-									<div class="panel-heading">
-										<h3 class="panel-title">CS:GO</h3>
-									</div>
-									<img src="images/icon.jpg" alt="HTML5">
-									<a href="#" target="_blank" class="btn btn-warning btn-block">
-										Download
-									</a>
-								</div><!--end icon1-->
-							</div><!--end col3 -->
-							<div class="col-sm-3">
-								<div class="panel">
-									<div class="panel-heading">
-										<h3 class="panel-title">CS:GO</h3>
-									</div>
-									<img src="images/icon.jpg" alt="HTML5">
-									<a href="#" target="_blank" class="btn btn-warning btn-block">
-										Download
-									</a>
-								</div><!--end icon1-->
-							</div><!--end col4 -->
-						</div> <!--end of row2-->
-							</div><!--end of tab1-->
+				<div class="col-12" >
+					<h3>Download top 3 games of the week</h3>
+				</div>
+				<div class="row" id="top3">
+					<div class="col-sm-6">
+						<div class="panel rank1" >
+							<img  id="rank1" src="images/wow.jpg" alt="rank1">
+							<a href="#" target="_blank" class="btn btn-info btn-block">
+								Download
+							</a>
+						</div> <!-- end of rank1-->
 					</div>
+					<div class="col-sm-6">
+						<div class="panel rank2" >
+							<img  id="rank2" src="images/mafia.jpg" alt="rank1">
+							<a href="#" target="_blank" class="btn btn-info btn-block">
+								Download
+							</a>
+						</div> <!-- end of rank2-->
+						<div class="panel rank3">
+							<img  id="rank3" src="images/rank1.jpg" alt="rank1">
+							<a href="#" target="_blank" class="btn btn-info btn-block">
+								Download
+							</a>
+						</div> <!-- end of rank3-->
+					</div>
+				</div>
+			</div><!--end of sec4-->
 
-					<div class="tab-content" >
-						<div class="tab-pane" id="tab2">
-							<div class="row" id="row3">
-							<div class="col-sm-3">
-								<div class="panel">
-									<div class="panel-heading">
-										<h3 class="panel-title">CS:GO</h3>
-									</div>
-									<img src="images/icon.jpg" alt="HTML5">
-									<a href="#" target="_blank" class="btn btn-warning btn-block">
-										Check
-									</a>
-								</div><!--end icon1-->
-							</div><!--end col3 -->
-							<div class="col-sm-3">
-								<div class="panel">
-									<div class="panel-heading">
-										<h3 class="panel-title">CS:GO</h3>
-									</div>
-									<img src="images/icon.jpg" alt="HTML5">
-									<a href="#" target="_blank" class="btn btn-warning btn-block">
-										Download
-									</a>
-								</div><!--end icon1-->
-							</div><!--end col3 -->
-							<div class="col-sm-3">
-								<div class="panel">
-									<div class="panel-heading">
-										<h3 class="panel-title">CS:GO</h3>
-									</div>
-									<img src="images/icon.jpg" alt="HTML5">
-									<a href="#" target="_blank" class="btn btn-warning btn-block">
-										Download
-									</a>
-								</div><!--end icon1-->
-							</div><!--end col3 -->
-							<div class="col-sm-3">
-								<div class="panel">
-									<div class="panel-heading">
-										<h3 class="panel-title">CS:GO</h3>
-									</div>
-									<img src="images/icon.jpg" alt="HTML5">
-									<a href="#" target="_blank" class="btn btn-warning btn-block">
-										Download
-									</a>
-								</div><!--end icon1-->
-							</div><!--end col3 -->
-						</div> <!--end of row1-->
-						<div class="row" id="row4">
-						<div class="col-sm-3">
-							<div class="panel">
-								<div class="panel-heading">
-									<h3 class="panel-title">CS:GO</h3>
-								</div>
-								<img src="images/icon.jpg" alt="HTML5">
-								<a href="#" target="_blank" class="btn btn-warning btn-block">
-									Download
-								</a>
-							</div><!--end icon1-->
-						</div><!--end col3 -->
-						<div class="col-sm-3">
-							<div class="panel">
-								<div class="panel-heading">
-									<h3 class="panel-title">CS:GO</h3>
-								</div>
-								<img src="images/icon.jpg" alt="HTML5">
-								<a href="#" target="_blank" class="btn btn-warning btn-block">
-									Download
-								</a>
-							</div><!--end icon1-->
-						</div><!--end col3 -->
-						<div class="col-sm-3">
-							<div class="panel">
-								<div class="panel-heading">
-									<h3 class="panel-title">CS:GO</h3>
-								</div>
-								<img src="images/icon.jpg" alt="HTML5">
-								<a href="#" target="_blank" class="btn btn-warning btn-block">
-									Download
-								</a>
-							</div><!--end icon1-->
-						</div><!--end col3 -->
-						<div class="col-sm-3">
-							<div class="panel">
-								<div class="panel-heading">
-									<h3 class="panel-title">CS:GO</h3>
-								</div>
-								<img src="images/icon.jpg" alt="HTML5">
-								<a href="#" target="_blank" class="btn btn-warning btn-block">
-									Download
-								</a>
-							</div><!--end icon1-->
-						</div><!--end col4 -->
-					</div> <!--end of row2-->
+			<div class="row" id="sec5">
+				<div class="col-12" >
+					<h3>Download Gaming Repacks</h3>
+				</div>
+				<div class="row" id="top3">
+					<div class="col-sm-3">
+						<div class="panel">
+							<img  id="repack1" src="images/repack1.jpg" alt="rank1">
+							<a href="#" class="btn btn-info btn-block">
+								Download
+							</a>
 						</div>
-				</div><!--end of tab2-->
-
-				</div><!-- end of tabbabble -->
-			</div><!-- end of col12 -->
-		 </div><!-- end of sec 4 -->
-    </div>
+					</div>
+					<div class="col-sm-3">
+						<div class="panel">
+							<img id="repack2" src="images/rank1.jpg" alt="rank1">
+							<a href="#" class="btn btn-info btn-block">
+								Download
+							</a>
+						</div>
+					</div>
+				</div>
+			</div><!--end of sec5-->
+    </div><!--end container-->
+	</div><!--end main-->
 		<!-- First try for the online version of jQuery-->
 		<script src="http://code.jquery.com/jquery.js"></script>
 
