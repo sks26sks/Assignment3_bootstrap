@@ -33,6 +33,23 @@ ul.unstyled
   text-align: center;
 }
 
+.panel-heading
+{
+  background-color: black;
+  border: none;
+}
+
+.panel-title
+{
+  color: white;
+}
+
+.rank
+{
+  background-color:black;
+  border:none;
+}
+
 .photo
 {
   width: 100%;
